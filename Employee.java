@@ -1,0 +1,24 @@
+class Employee
+{
+int id;
+String name;
+Employee(int id,String name)
+{
+this.id = id;
+this.name = name;
+}
+void show()
+{
+System.out.println(id+" "+name);
+}
+}
+class ThisDemo2
+{
+public static void main(String args[])
+{
+Employee e1 = new Employee (111,"harry");
+e1.show();
+}
+}
+    
+
